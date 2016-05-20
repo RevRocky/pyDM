@@ -1,0 +1,10 @@
+pyDM - What's in a Character
+
+While this document could easily be home to a complete breakdown of what makes a good character in interactive media
+we will choose to eschew this more esoteric discussion for a later time. Instead, this document will focus on what mechanics
+allow for characters to be fully fleshed in both a game play and story sense. Falling in line with the structure of the entire project,
+we will first design for gameplay in the most narrow of senses and then build out.
+
+Before outlining what sort of skills and attributes a character should have and how they
+
+

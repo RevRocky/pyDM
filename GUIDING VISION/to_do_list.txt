@@ -1,0 +1,65 @@
+﻿pyDM
+A Needlessly Robust Text RPG engine written in Python
+
+
+
+
+Guiding Philosophy:
+        
+“pyDM seeks to model the tabletop role-playing game and offer both creators and players an experience that seeks not to replace the TRPG but provide a resource for telling the kind of stories that the genre is known for in a digital space.
+
+
+TO DO:
+                This is the master planning/to do list. Check here for ideas for ways to contribute. Note: All phase zero becomes before phase one and so on.
+
+
+Phase Zero    All Set. Ready to Go
+* Make a Skeleton of the Project (foders, text files explaining what goes in the folders)
+
+
+        
+
+
+Phase One Crawl Before Walking
+* Create base classes:
+   * Player Character
+   * NPC
+   * “Monster”
+   * Locations
+   * Items
+   * Any other objects a game might need.
+* Create a save-game system
+   * Big problem here is how can one quickly and efficiently save a game w/o it being a whole mess!
+* Rudimentary input support
+   * Using something like a regex to naturalistically handle input.
+* Combat System
+   * This is less about designing a system of combat. I think for now it’d be best to stick to something similar to D&D 5e for the mechanics. More important is getting things to play nicely.
+   * Also important is figuring out how monsters are scripted so they can use different moves. Use items at opportune times.
+* Create a structure, separate from the main engine, allows the game to be played using the tools of the engine. 
+
+
+Essentially the goal of phase one is to make a working “game” which is more or less a pretty series of combat encounters and have this work well. This does not mean that the engine is complete but it will be something that one COULD build a game with.
+
+
+Phase Two Extending the Engine
+
+
+Phase two will build off of phase one and add in more features that aren’t exactly related to combat. These features could be in game relationships (be it with persons or factions), lock picking, more advanced systems of travel… etc etc. This is where we look at what makes a good RPG, a compelling player driven narrative and we build it into pydm. Other things that would be cool would be support for sound or limited visuals. 
+
+
+Another thing that will be good to add in in this phase are things like default settings. This would be something like a default “Pub” which would provide the opportunity to do odd jobs. Get in drinking contests. Talk with patrons etc (all away from the “main story”. The thing is that the pub could easily be modified to be whatever the creator wanted but they wouldn’t worry about some of the standard things (say randomly generating people with little tidbits to say or a board of odd jobs. 
+
+Basically Phase Two is coming up anticipating what a creator may want and doing some of the heavier lifting for them. Why? The nature of TRPG stories is vast and somewhat free form. The more built-in things a creator has: the more time they can spend… actually fleshing out their world and their story.
+
+
+Phase Three Tools are for Tools (Plus: Look what I Can Do)
+
+
+In phase three we wrap all of our work in phase two up with a nice bow. Here we create a suite of tools that will allow people to more easily create adventures. I envision some sort of gui based programme that will allow one to create a rather fully fledged text adventure w/o having to do much interaction with the code, this is because our target audience is less people who can programme and more people who want to tell interactive stories. That said: enterprising individuals should be provided the ability to further extend pyDM with python scripting of their own.
+
+
+Phase Four Super Reach
+
+
+This is some ways off in the future. Phase One and Two alone (not to mention Three) will take a lot of time. Years perhaps as we all pursue other projects and get on with life but here anyone can put down super reach goals they’d like pyDM to do. One thing I’d perhaps like is a netcode so that multi-player experiences could be created with pyDM, something that could position pyDM as a true online version of the table-top roleplaying game. 
+Another thing that would be cool should the programme ever get netcode is to create a webapp so that multiple users could connect to an adventure on their phone. Something really cool would be a scenario where all of the people are still gathered around a physical table but they use their phones or what not to interact with the adventure. ((Note: one obvious downside is that this would somewhat limit the open-world ness of TPRGS so perhaps not?)
