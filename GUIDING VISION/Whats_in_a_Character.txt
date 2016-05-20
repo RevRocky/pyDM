@@ -5,6 +5,37 @@ we will choose to eschew this more esoteric discussion for a later time. Instead
 allow for characters to be fully fleshed in both a game play and story sense. Falling in line with the structure of the entire project,
 we will first design for gameplay in the most narrow of senses and then build out.
 
-Before outlining what sort of skills and attributes a character should have and how they should impact gameplay
+Before outlining what sort of skills and attributes a character should have and how they should impact gameplay we should think of what constitutes a character.
 
+In the paradigm this project is operating: it is important to distinguish a person from a character. While a tough
+distinction to make: I think the distinction lies in whether or not the character needs/has attributes assigned to them
+that have a measurable impact on the world of the game. Consider this example with two shop keepers.
 
+Shopkeeper A has a static shop. His items have a fixed price and will always sell the same items. He can't be haggled with.
+Items you sell do not appear in his inventory etc etc.
+
+Is he a character?
+
+I take the stance that for our purposes he is not a character. He has no real goals and there are few attributes that
+one could use to represent him. He is simply a conduit to what ever goods he is selling. As such: I would not think of him
+as being represented in the "character" class.
+
+Shopkeeper B, meanwhile, has an inventory that is not set at any given point. He may sell items when you're not in the shop
+he only has a finite amount of money to give you for selling his goods. More importantly, he can be haggled with. Perhaps
+he's a master at the art of the deal or maybe he will go for almost any offer. Perhaps this behaviour changes the more he
+gets to know the PC. Maybe the PC does a quest for this shopkeeper to earn his trust etc etc.
+
+Already, we can see that he is complex. More fleshed out. He has motive beyond a purely utilitarian one. As a result
+we he would be a member of the character class.
+
+With this out of the way... I think it's opportune that we look at the three main types of characters there are in a game:
+
+And... for now explore what attributes each type of character may need. ((NOTE: This analysis will initially be
+from the COMBAT/basic game play first.
+
+Player Character
+Enemy/Monster
+NPC
+
+* Note: There could potentially be overlap between NPCs and Enemy/Monsters. As a result it may be more beneficial to make
+Enemies a subclass of NPCs and it would be wise if all members of the character class (or 90%) had combat stats.
