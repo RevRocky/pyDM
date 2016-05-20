@@ -5,6 +5,6 @@ we will choose to eschew this more esoteric discussion for a later time. Instead
 allow for characters to be fully fleshed in both a game play and story sense. Falling in line with the structure of the entire project,
 we will first design for gameplay in the most narrow of senses and then build out.
 
-Before outlining what sort of skills and attributes a character should have and how they
+Before outlining what sort of skills and attributes a character should have and how they should impact gameplay
 
 
