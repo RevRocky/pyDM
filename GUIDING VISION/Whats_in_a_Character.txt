@@ -31,7 +31,7 @@ we he would be a member of the character class.
 With this out of the way... I think it's opportune that we look at the three main types of characters there are in a game:
 
 And... for now explore what attributes each type of character may need. ((NOTE: This analysis will initially be
-from the COMBAT/basic game play first.
+from the COMBAT/basic game play first.))
 
 Player Character
 Enemy/Monster
