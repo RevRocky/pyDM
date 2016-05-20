@@ -39,5 +39,3 @@ NPC
 
 * Note: There could potentially be overlap between NPCs and Enemy/Monsters. As a result it may be more beneficial to make
 Enemies a subclass of NPCs and it would be wise if all members of the character class (or 90%) had combat stats.
-
-
