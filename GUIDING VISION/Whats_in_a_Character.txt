@@ -39,3 +39,51 @@ NPC
 
 * Note: There could potentially be overlap between NPCs and Enemy/Monsters. As a result it may be more beneficial to make
 Enemies a subclass of NPCs and it would be wise if all members of the character class (or 90%) had combat stats.
+
+So: without further ado allow me to outline the basics for all character sheets as well as how one can use layers and layers
+of subclassing to build up a robust and specialised character even while working from a basic template.
+
+Character Sheet Basics:
+
+Basic Info - This is basic information regarding the character. Name. Race. Weight. Height. A short bio perhaps.
+Anything that is not quantitative. Key in constructing this part of the character sheet will be going about it in a way
+that provides for maximum possible flexibility.
+
+
+Attributes - While a bit reductionist to think of characters as nothing more than their stats, stats allow a character
+to interact in a meaningful way with the world as they define the limits of a character's capabilities. Since stats
+are so fundamental to how the game works and the player's experience. I think there should be some thought put into exactly
+how they are implemented into the engine and what each stat governs. Below is simply one proposal and I invite all early
+collaborators to make their own proposals so that an optimal system can be derived.
+
+_____________________
+Rocky's Proposal:
+
+Health Points: This is how many hit points a character has left. No need to reinvent the wheel here. For narrative purposes
+it may be interesting to obscure this number from the player and have it conveyed in prose. Based on how much health a player has
+they may be seen as "Healthy", "Injured" etc etc.
+
+Spoons: This represents how much effort one has left to spend on special feats be it in or out of combat.
+
+(Will go into greater detail later)
+
+Strength:
+
+Intelligence
+
+Durability
+
+Resolve
+
+Charisma
+
+Luck
+____________________
+
+Skills
+
+Inventory
+
+Progress
+
+
