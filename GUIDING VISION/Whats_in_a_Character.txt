@@ -80,6 +80,7 @@ Charisma
 Luck
 ____________________
 
+
 Skills
 
 Inventory
