@@ -69,15 +69,47 @@ Spoons: This represents how much effort one has left to spend on special feats b
 
 Strength:
 
-Intelligence
+Strength governs most of a character's martial abilities. How hard they can swing a sword or an axe and how much damage
+said swing does.
 
-Durability
+Intelligence:
+
+Unlike most systems which have intelligence be the go to stat for spell casters, I feel like it's rather silly and not
+the best use of the stat. Instead intelligence has the following effect:
+
+Characters with high intelligence are more likely to know about their surroundings and as a result they will be better
+equipped to deal with any "surprises" that head their way. As a result, a character may with high intelligence may be
+given extra information about the behaviour of a monster or an alternative path through a dungeon.
+
+Durability:
+
+Durability is how much beating a character can take before they die. It governs Health as well as how much damage one takes
+from attacks.
+
+
 
 Resolve
 
+Resolve is similar to durability but it governs one's defenses against certain kinds of magicks (those that seek to
+contort and play with the mind). It plays a minor role in granting spoons in the sense that it grants a certain amount of
+extra spoons per level.
+
+Magicks:
+
+Magicks is one's general aptitude for magic. Even those not in a spell casting role may find that having high magick is
+useful as they could end up being able to use low level spells where others in thir class could not.
+
 Charisma
 
+Charisma governs social interactions. Think of it like social intelligence. It influences one's ability to persuade NPCs of a
+myriad of things. Characters with high charisma may find they don't have to jump through as many hoops as others. Makes
+sense though. Who wouldn't trust a guy with a naturally good smile!
+
 Luck
+
+The last, and most arbitrary, of our skills is luck. It no large role in any one thing but a small role in everything.
+Each roll will have a small chance of a luck bonus being added onto it That percentage being governed by one's luck stat.
+A poor thing to optimise for but if you find you have a few extra skill points... luck is the place to put them.
 ____________________
 
 
