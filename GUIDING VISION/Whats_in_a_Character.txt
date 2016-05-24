@@ -119,4 +119,8 @@ Inventory
 
 Progress
 
+(ROCKY): I think one of the most difficult things that we will be faced with implementing is how we save progress.
+Something that I have been toying around with is having character and game files saved a bit separately. That way
+adventures are more modular. One character can be used in multiple different adventures.
+
 
