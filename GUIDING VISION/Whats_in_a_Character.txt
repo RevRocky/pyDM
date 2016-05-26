@@ -121,6 +121,15 @@ Progress
 
 (ROCKY): I think one of the most difficult things that we will be faced with implementing is how we save progress.
 Something that I have been toying around with is having character and game files saved a bit separately. That way
-adventures are more modular. One character can be used in multiple different adventures.
+adventures are more modular. One character can be used in multiple different adventures. I don't think this is all too
+difficult to implement. Saving character data will likely be as simple as pickling the information from the class
+instance.
+
+I contend that the most difficult part of this entire process will be saving game-state information in a way that is simple
+yet preserves the game "as the player left it". One idea to somewhat simplify the process is to have "save points" or
+something of the like...
+
+Anyway, I'm getting off the topic of characters and what not but I'll finish off this little bit by saying that I think
+making a savegame system should come once we figure out how exactly a game works and have some of it coded.
 
 

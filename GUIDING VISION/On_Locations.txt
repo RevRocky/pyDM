@@ -1,0 +1,60 @@
+pyDM - On Locations (also a... tangent on states)
+
+(Rocky) Aside from characters, locations are perhaps most important part of this engine. Perhaps they are even more important
+than NPCs as locations form the basis how the character interacts with the world. Even more difficult is that, unlike
+characters, where there is a well established paradigm for thinking about how construct a character in both a role play
+and gameplay sense, there isn't as well an established paradigm for thinking about locations. In TRPGs, a location more
+or less exists in the minds of the player and the DM who is given significant liberty to embelish the location. If the DM
+wants the city to have a rowdy dwarven tavern for the players to visit... NO PROBLEM!
+
+Unfortunately, this type of creativity on the fly is unable to replicated in the digital space and while it is the stated
+goal of pyDM to provide creators as big (and accessible) a sandbox as possible to replicate this, we will still be hampered
+by the fact that a creator won't be able to do that sort of on - the - fly creativity.
+
+Okay, so let's look to video games for inspiration. Here we also encounter some problems. While there are text based adventure
+games (a paradigm which I think pyDM would do well to copy some, but not all of the framework of), other (graphical) video games
+also have one notable difference from what we are trying to accomplish... That difference is that environments are modeled.
+Since both designer and player are conveyed visual information about the environments in game, it is much easier to think
+about game environments in the same way that we think about the physical world. Further more, considerable information
+can be conveyed to the player simply by the way things look.
+
+Being a text-based outfit we don't have that same luxury. We have to use words to paint the picture. Alone, this is easy
+enough, writers have done this for generations but on top of that, locations need to function somewhat like their video game
+counterpart. If we are in the capital city, we should be able to go to the east woods, or the mountains to the west. We can't just
+think of locations as rooms along a linear corridor (perhaps with a branch or two coming off of it), they have to be
+constituents of a cohesive world.
+
+In addition, story "events" must also be triggered correctly. Say we want something to happen the first time the character enters the capital city,
+we must provide an interface to allow this to happen. Perhaps after completing a quest in some far off dungeon nothing happens
+until the character returns to the capital... this must also be accounted for.
+
+Fortunately, I think there is a good paradigm for thinking about this. If we think of most locations as being a constant,
+(a city rarely "changes") there are two ways (which we will likely use in tandem) to accomplish this task. The first is that
+any changes to the functionality of the location can be easily sub-classed from the main instance of the location. To use
+an example from a well known game: think of the Imperial City in Oblivion, anyone who played through TES IV knows that
+at the climax of the game the Imperial City was sacked by a daedric invasion. If we were to model this in pyDM we would
+have two classes that represented the Imperial City. One that was the city in times of peace and another... drastically
+altered that would be used at the appropriate time.
+
+How do we know when is the appropriate time? Using states, of course. While I'm going to be light on the technical details
+(they have yet to even be mapped out in the most abstract of ways), we can break down each story into a series of states
+each of which that has certain requirements to get to. It could be completion of certain quests earlier in the story,
+discovering a certain location, reaching affinity with an individual or faction... etc etc. Achieving these tasks will
+put the game into a certain state where such event can occur. States will allow the world to change as a result of the players
+actions and do so in a way that preserves autonomy for the player to simply go off course and hit up a dungeon to grind
+and get some loot.
+
+One important thing is that pursuing development in this direction will mean that almost any event will have to be handled
+in this paradigm. Quest lines will be broken down in to states for each quest which will break down in to states for each
+step in the quest etc etc. Even something like a simple side quest will need states.
+
+As a result, states will need to be powerful in terms of what they can handle and will need to have a well thought out
+and well written interface to allow for interaction between different elements in the game. Simply put, states are the glue
+that binds the game together.
+
+Anyway, that there is what we in the industry call a tangent. Below, I'm going to make just one proposal of the kind of
+elements that a location will need to work well in both a gameplay and narrative sense.
+
+_____
+
+ROCKY'S PROPOSAL
